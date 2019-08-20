@@ -1,13 +1,10 @@
 package com.company.taskaboutfireman;
 
 public class Fireman implements Runnable{
-
     private MessageAboutFire msg;
-
     public Fireman(MessageAboutFire m){
         this.msg = m;
     }
-
     @Override
     public void run() {
         String name = Thread.currentThread().getName();
