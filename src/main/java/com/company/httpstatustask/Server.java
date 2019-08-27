@@ -4,6 +4,7 @@ import com.company.httpstatustask.HTTP;
 
 public class Server implements Runnable {
     public static final int MAX_NUMBER_REQUEST = 4;
+
     @Override
     public void run() {
         for (int i = 0; i < MAX_NUMBER_REQUEST; i++) {
